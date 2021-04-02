@@ -133,7 +133,7 @@ if(CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
 	# fetch latest matrix from github
 	include(ExternalProject)
 	ExternalProject_Add(matrix
-			GIT_REPOSITORY "https://github.com/PX4/Matrix.git"
+			GIT_REPOSITORY "https://github.com.cnpmjs.org/PX4/Matrix.git"
 			GIT_TAG f981cea2aebfc9cfd930dce73ba6d4d6681e99c1
 			UPDATE_COMMAND ""
 			PATCH_COMMAND ""
